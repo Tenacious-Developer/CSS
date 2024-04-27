@@ -1,0 +1,9 @@
+.cutom-divider {
+    height: 3rem;
+    background-color: white;
+}
+
+.product-image {
+    max-height: 100%;
+    max-width: 100%;
+}

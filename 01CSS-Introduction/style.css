@@ -1,0 +1,68 @@
+/*color pickr - Adobe
+font pair 
+css tricks
+weorg for all different property
+mdn */
+
+
+/*
+
+Color
+Font
+Selector
+Descendent, child, adjacent & genral sibling
+Psuedo class and psuedo element
+
+*/
+
+* {
+    /* This is a universal selector, whatever you write here is applied to everything */
+    /*Manualy selecting all the element*/
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3f2ef;
+}
+
+/*header {
+     background-color: white; 
+}*/
+
+/* This is a class selector*/
+
+/* .mid-text {
+    font-weight: bolder;
+    font-size: medium;
+} */
+
+/* This is a id selector*/
+
+#head-text {
+    text-decoration-line: underline;
+    text-decoration-style: solid; /* https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-style */
+}
+
+
+/*span is the child of div - descendant combinators */ 
+
+/* div span { */
+    /* color:cadetblue; 
+} */
+
+/* div > .extra {
+    text-decoration-line: underline;
+} */
+
+/*div + h4 {  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors */
+    /* color:chocolate; */
+/* } */
+
+div :first-child {
+    color: blue;
+}
+
+div, p {
+    padding: 5px;
+}
